@@ -10,7 +10,7 @@ Like all good things, this package is installed using Composer. Just add the
 following to your composer.json
 
 ```json
-require {
+"require": {
     "patrick-rose/laravel-shared-host": "dev-master"
 }
 ```
