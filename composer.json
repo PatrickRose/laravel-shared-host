@@ -1,0 +1,21 @@
+{
+    "name": "patrick-rose/laravel-shared-host",
+    "description": "An easy way for people on shared hosting without command line access to use laravel. It is likely insecure because of it",
+    "authors": [
+        {
+            "name": "Patrick Rose",
+            "email": "pjr0911025@googlemail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+	"illuminate/console": "4.0.x"	
+    },
+    "autoload": {
+        "psr-0": {
+            "PatrickRose\\LaravelSharedHost": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
